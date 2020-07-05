@@ -3,8 +3,27 @@ Authors: Feihu Huang, Shangqian Gao, Pei Jian and Huang Heng
 
 PyTorch Implementation of Momentum-Based Policy Gradient Methods.
 
-The code will be updated soon.
-
+Code uploaded.
+# Requirements
+pytorch 1.1.0  
+[garage](https://github.com/rlworkgroup/garage)  
+[mujuco](http://www.mujoco.org/)  
+[gym](https://github.com/openai/gym)  
+If you do not install mujuco, then only CartPole environment is available.
+# Usage
+To run IS-MBPG
+```
+python MBPG_test.py --env CartPole
+```
+To run IS-MBPG*
+```
+python MBPG_test.py --env CartPole --IS_MBPG_star True
+```
+To run HA-MBPG
+```
+python MBPG_HA_test.py --env CartPole
+```
+To run different environments change --env to one of the followings: "CartPole", "Walker", "Hopper" or "HalfCheetah". If you want to use our algorithms on different enviroment, you need to implement it by yourself, but it should be pretty straightforward.
 # Citation
 ```
 @InProceedings{huang2020accelerated,
