@@ -1,7 +1,7 @@
 # Momentum-Based Policy Gradient Methods
 Authors: Feihu Huang, Shangqian Gao, Pei Jian and Huang Heng
 
-PyTorch Implementation of Momentum-Based Policy Gradient Methods (ICML 2020).
+PyTorch Implementation of [Momentum-Based Policy Gradient Methods](https://arxiv.org/pdf/2007.06680.pdf) (ICML 2020).
 
 Code uploaded.
 # Requirements
