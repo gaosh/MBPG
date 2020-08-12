@@ -6,7 +6,7 @@ PyTorch Implementation of [Momentum-Based Policy Gradient Methods](https://arxiv
 Code uploaded.
 # Requirements
 pytorch 1.1.0  
-[garage](https://github.com/rlworkgroup/garage)2019.10.1\
+[garage](https://github.com/rlworkgroup/garage) 2019.10.1\
 [mujuco](http://www.mujoco.org/)  
 [gym](https://github.com/openai/gym)  
 If you do not install mujuco, then only CartPole environment is available.
